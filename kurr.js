@@ -475,7 +475,7 @@ ${isSurender ? '' : ``}`.trim()
 › ➥⬣ ${prefix}termint  (owner only)   
 › ➥⬣ ${prefix}listgc (untuk liat id gc)
 › ➥⬣ ${prefix}linkgc
-├───[ 🇮🇩𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗬𝗢𝗦𝗡𝗘𝗦𝗜𝗔🇮🇩 ]────
+├───[ 🇮🇩𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 VennHosting🇮🇩 ]────
 `
 let btn = [{
     quickReplyButton: {
@@ -485,7 +485,7 @@ let btn = [{
       
  }]
 fatihgans = fs.readFileSync('./lib/assets/logo.jpg'), 
-kurr.send5ButImg(m.chat, Anu, ` 𝗕𝗢𝗧 𝗛𝗢𝗦𝗧𝗜𝗡𝗚 𝗬𝗢𝗦𝗡𝗘𝗦𝗜𝗔 `, fatihgans, btn)
+kurr.send5ButImg(m.chat, Anu, ` 𝗕𝗢𝗧 𝗛𝗢𝗦𝗧𝗜𝗡𝗚 VennHosting `, fatihgans, btn)
                                           break
                                            case 'linkgroup': case 'linkgc': {
                 if (!m.isGroup) throw  m.reply(`Khusus Group`)
@@ -514,7 +514,7 @@ if (!isCreator) throw  m.reply(`Lu Siapa Ajg`)
         .catch(e=>{m.reply("error"); console.log(JSON.stringify(e, null, 2))})
       break
                                           case 'subs':
-                                          m.reply(`GG KAN BOT NYA SUBS YT GW DONG BIAR NAMBAH GG\nYT : https://youtube.com/channel/UC9B6MfMqbnL-IsfAUZEIOTw`)
+                                          m.reply(`GG KAN BOT NYA SUBS YT GW DONG BIAR NAMBAH GG\nYT : `)
                                           break
                                           case 'addpack':
          if(from != "120363042323874758@g.us") return m.reply("maaf su fitur ini dapet di gunakan group tertentu")
